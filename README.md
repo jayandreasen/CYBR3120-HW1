@@ -1,7 +1,7 @@
 # CYBR3120-HW1
 
 
-##200 OK
+## 200 OK
 nc -C portquiz.net 80  
 HEAD / HTTP/1.1  
 Host: portquiz.net  
@@ -13,7 +13,7 @@ Connection: close
 Content-Type: text/html; charset=UTF-8  
 
 
-##301 Moved Permanently  
+## 301 Moved Permanently  
 nc -C dunwoody.edu 80  
 HEAD / HTTP/1.1  
 Host: dunwoody.edu  
@@ -32,7 +32,7 @@ MS-Author-Via: DAV
 X-Powered-By: PleskLin  
 
 
-##400 Bad Request  
+## 400 Bad Request  
 nc -C twin-cities.umn.edu 443  
 HEAD / HTTP/1.1  
 Host: twin-cities.umn.edu  
@@ -45,7 +45,7 @@ Content-Length: 248
 Connection: close  
 
 
-##404 Not Found  
+## 404 Not Found  
 nc -C api.scheduleengine.net 80  
 GET / HTTP/1.1  
 Host: api.scheduleengine.net  
